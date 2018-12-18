@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Currency.create(currency_name: "USD")
+Currency.create(currency_name: "OMIR")
+Currency.create(currency_name: "RTGS")
+Currency.create(currency_name: "Bond")
+Currency.create(currency_name: "ZAR")
