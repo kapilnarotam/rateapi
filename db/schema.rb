@@ -10,10 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181218200013) do
+ActiveRecord::Schema.define(version: 20181218203351) do
 
   create_table "currencies", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
     t.string "currency_name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "markets", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=latin1" do |t|
+    t.integer "base_currency_id"
+    t.integer "quoted_currency_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
