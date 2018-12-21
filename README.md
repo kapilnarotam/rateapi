@@ -13,7 +13,3 @@ RateAPI to be used with rate application. Makes use of mysql database to store c
 *	Start another instance of gitBash in working directory, type "rails s" to start on default port 3000
 *	check if API is working by visiting "localhost:3000/markets" or "localhost:3000/rates" or "localhost:3000/currencies"
 	
-	
-
-done by 
-Kapil
