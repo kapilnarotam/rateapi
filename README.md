@@ -28,7 +28,7 @@ RateAPI to be used with rate application. Makes use of mysql database to store c
 
 API container should be running, and see output visiting
 
-*	<machine-ip>:3000/rates ; <machine-ip>:3000/markets ; <machine-ip>:3000/currencies
+*	machine-ip:3000/rates ; machine-ip:3000/markets ; machine-ip:3000/currencies
 
 
 
