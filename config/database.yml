@@ -8,17 +8,10 @@ default: &default
   adapter: mysql2
   encoding: utf8
   username: root
-<<<<<<< HEAD
-  password: #edit password to suit xampp configuration, default is blank. For docker, use "pass"
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
-  #host: mysql  #comment out line when using xampp
-=======
   password: pass #edit password to suit xampp configuration, default is blank. For docker, use "pass"
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
   host: mysql  #comment out line when using xampp
->>>>>>> d4cef0c316d52f7156c8dd34c6feebe307c663ec
 
 development:
   <<: *default
